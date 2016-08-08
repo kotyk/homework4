@@ -1,0 +1,170 @@
+body {
+	background-image: url(../img/background.png);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Tahoma, sans-serif;
+}
+
+.google_head{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1000px;
+	height: auto;
+	background-color: #fff;
+	padding-top: 4px;
+	box-shadow: 0px 0px 3px 2px #0a5a71;
+	border-bottom: 3px solid black;
+}
+
+.logo{
+	float: left;
+	margin-left: 30px;
+}
+
+.contacts{
+	float: right;
+	margin-right: 30px;
+	color: #5fa5bb;
+	font-size: 12px;
+}
+
+.contacts p{
+	margin-bottom: 2px;
+	margin-top: 0;
+}
+
+strong{
+	line-height: 25px;
+}
+
+.countries{
+	margin-right: 30px;
+	margin-top: 28px;
+	float: right;
+	clear:right;
+	margin-bottom: 9px;
+}
+
+.countries img{
+	margin: 0 5px;
+}
+
+.image{
+	display: block;
+}
+
+.menu{
+	width: 1000px;
+	height: 30px;
+	background-color: #333333;
+	border-bottom: 1px solid black;
+	box-shadow: 0 0  5px 0;
+	list-style: none;
+}
+
+ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.menu > li {
+	float: left;
+	position: relative;
+	font-size: 14px; 
+	color: #fff;
+	width: 142px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+ul.menu > li > a {
+	color: white;
+	text-decoration: none;
+}
+
+ul.submenu {
+	display: none;
+	width: 150px;
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	box-shadow: 0 2px 7px  #474747;
+}
+
+ul.submenu > li {
+	display: block;
+}
+ul.submenu > li > a {
+	display: block;
+	padding: 6px;
+	color: white;
+	background-color: #333333;
+	text-decoration: none;
+	padding-left: 13px;
+	text-align: left;
+}
+
+ul.submenu > li > a:hover {
+	text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+	display: block;
+}
+
+.fon {
+	width: 1000px;
+	overflow: hidden; 
+
+}
+
+.leftColumn {
+	width: 200px;
+	height: 500px;
+	float: left;
+	background-color: #edeef0;
+}
+
+.centerColumn {
+	width: 600px;
+	height: 500px;
+	float: left;
+	background: #fff;
+}
+
+.rightColumn {
+	width: 200px;
+	height: 500px;
+	float: left;
+	background-color: #edeef0;
+}
+
+h3{
+	color: #424c43;
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 4px;
+}
+
+.leftColumn p, .rightColumn p{
+	text-align: center;
+	color: #7d837f;
+	font-size: 14px;
+	line-height: 8px;
+}
+
+.copyright{
+	width: 230px;
+	margin: 0 auto;
+	color: #dee7ee;
+	font-size: 12px;
+}
