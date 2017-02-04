@@ -1,6 +1,5 @@
 body {
-	background: linear-gradient(to bottom, #1297b7 0%,#128aa7 0%,#128aa7 3%,#5ef0ff 3%,#11cde1 3%,#18cee2 4%,#2ad2e4 5%,#48d8e8 7%,#ccf5f9 13%,#f5fdfe 16%,#ffffff 17%,#40c6d3 17%,#36bacb 21%,#1a9cb8 28%,#1395b3 30%,#1191b1 32%,#0f8cad 48%,#0c77a1 86%,#0c739f 100%);
-	background-size: auto 100%;
+       background: linear-gradient(to bottom, #1297b7 0%,#128aa7 0%,#128aa7 3%,#5ef0ff 3%,#11cde1 3%,#18cee2 4%,#2ad2e4 5%,#48d8e8 7%,#ccf5f9 13%,#f5fdfe 16%,#ffffff 17%,#40c6d3 17%,#36bacb 21%,#1a9cb8 28%,#1395b3 30%,#1191b1 32%,#0f8cad 48%,#0c77a1 86%,#0c739f 100%);
 	margin: 0;
 	padding: 0;
 	font-family: Tahoma, sans-serif;
@@ -15,7 +14,6 @@ body {
 	box-shadow: 0px 0px 3px 2px #0a5a71;
 	border-bottom: 3px solid black;
 	margin-top: -3px;
-
 }
 
 .logo{
@@ -42,7 +40,7 @@ strong{
 .countries{
 	height: 80px;
 	margin-right: 30px;
-	margin-top: 10px;
+	margin-top: 31px;
 	float: right;
 	clear:right;
 }
@@ -68,8 +66,9 @@ strong{
 	height: 30px;
 	background-color: #333333;
 	border-bottom: 1px solid black;
-	box-shadow: 0 0  5px 0;
+	box-shadow: 0 1px 5px 0;
 	list-style: none;
+	position: relative;
 }
 
 ul {
@@ -87,7 +86,7 @@ ul.menu > li {
 	width: 142px;
 	text-align: center;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 5px;	
 }
 
 ul.menu > li > a {
@@ -101,7 +100,11 @@ ul.submenu {
 	position: absolute;
 	top: 30px;
 	left: 15px;
-	box-shadow: 0 2px 7px  #474747;
+	box-shadow: 0 5px 7px  #474747;
+}
+
+ul.submenu > li:first-child{
+	border-top: 1px solid black;
 }
 
 ul.submenu > li {
@@ -161,7 +164,8 @@ h3{
 	text-align: center;
 	color: #7d837f;
 	font-size: 14px;
-	line-height: 8px;
+	line-height: 26px;
+	margin-top: 1px;
 }
 
 .copyright{
