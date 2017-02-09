@@ -79,17 +79,21 @@ ul {
 }
 
 ul.menu > li {
+	display: inline-block;
 	float: left;
 	position: relative;
 	font-size: 14px; 
 	color: #fff;
-	width: 142px;
 	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;	
+		
 }
 
 ul.menu > li > a {
+	box-sizing: border-box;
+	display: block;
+	width: 142px;
+	height: 30px;
+	line-height: 30px;
 	color: white;
 	text-decoration: none;
 }
@@ -113,7 +117,8 @@ ul.submenu > li {
 
 ul.submenu > li > a {
 	display: block;
-	padding: 6px;
+	height: 30px;
+	line-height: 30px;
 	color: white;
 	background-color: #333333;
 	text-decoration: none;
